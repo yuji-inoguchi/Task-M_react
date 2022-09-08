@@ -25,6 +25,7 @@ header {
   height: 100vh;
 }
 
+
 .taskCard {
   width: 250px;
   padding: 10px 25px;
@@ -115,4 +116,11 @@ header {
   cursor: pointer;
   font-size: 16px;
   color: rgb(158, 46, 46);
+}
+
+
+@media screen and (max-width:750px) { 
+  .taskCardsArea {
+    justify-content: center;
+  }
 }
